@@ -105,7 +105,10 @@ h2 {
     .container{
         max-width:700px;
         display: grid;
-        grid-template-columns: 1fr 1fr;   
+        grid-template-columns: 1fr 1fr;
+        /* margin:auto auto;    */
+        align-items: center;
+        justify-content: center;
 }
 .text-section{
     padding-top: 30px;
